@@ -3,41 +3,29 @@
 ## 🚀 Proyecto Overview
 
 Este proyecto se enfoca en el análisis exhaustivo de datos de telecomunicaciones para extraer insights valiosos y fundamentar la toma de decisiones estratégicas. A través de la manipulación y el análisis de los datos, buscamos optimizar operaciones, identificar áreas de mejora y potenciar el rendimiento general de los servicios de telecomunicaciones.
-
+---
 
 ## 📂 Contenido del Proyecto
 
-- Análisis exploratorio de datos (EDA)
-- Visualización de correlaciones e insights clave
-- Limpieza y transformación de datos
-- Entrenamiento y evaluación de modelos
-- Interpretación de resultados
-- Visualización de métricas clave
+### Jupyter notebook
+-  Análisis exploratorio de datos (EDA)
+-  Limpieza y transformación de datos
+-  Visualización de métricas clave
+-  Interpretación de resultados
 
+### Python 
+- `myfunctions.py`:  Script de Python que define las funciones reutilizables para el análisis de datos, incluyendo:
+    -  `cambiar_tipo(df)`:  Cambia el tipo de datos de las columnas.
+    - `nulos_analisis(df)`:  Analiza los valores nulos.
+    - `duplicados_analisis(df)`:  Analiza los duplicados.
+    - `analisis_clientes(df)`:  Realiza un análisis de los clientes.
+    - `analisis_operadores(df)`:  Realiza un análisis de los operadores.
+    - `calcular_ineficacia(df)`:  Calcula el índice de ineficacia de los operadores.
+    - `eliminar_operadores(df, operadores_a_eliminar)`:  Elimina los operadores especificados del DataFrame.
+    - `convertir_a_excel(df, nombre_archivo)`:  Convierte un DataFrame a un archivo Excel.
 
-├── datasets/
-│   ├── telecom_dataset_us.csv        # Dataset principal de telecomunicaciones
-│   ├── telecom_clients_us.csv        # Dataset de información de clientes
-│   └── telecom_dataset_us_clean.xlsx  # Dataset limpio generado
-├── jupyter.ipynb                   # Notebook de Jupyter con el análisis
-└── myfunctions.py                  # Script de Python con funciones reutilizables
+### Datasets
+  - Directorio que contiene los datasets de entrada (`telecom_dataset_us.csv`, `telecom_clients_us.csv`) 
+  - Dataset de salida limpio (`telecom_dataset_us_clean.xlsx`).
+
 ---
-
-## 🛠️ Herramientas y Tecnologías
-
-Este proyecto se ha desarrollado utilizando un conjunto de herramientas y bibliotecas de vanguardia para garantizar la eficiencia y precisión en el análisis de datos:
-
-* **Lenguaje de Programación:**
-    * ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-* **Análisis y Manipulación de Datos:**
-    * ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-    * ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-    * ![SciPy](https://img.shields.io/badge/-SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
-* **Machine Learning:**
-    * ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-* **Visualización de Datos:**
-    * ![Seaborn](https://img.shields.io/badge/-Seaborn-4B8BBE?style=for-the-badge)
-    * ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=for-the-badge)
-    * ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-
-## 📁 Estructura del Proyecto
