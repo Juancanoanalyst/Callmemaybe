@@ -3,6 +3,7 @@
 ## 🚀 Proyecto Overview
 
 Este proyecto se enfoca en el análisis exhaustivo de datos de telecomunicaciones para extraer insights valiosos y fundamentar la toma de decisiones estratégicas. A través de la manipulación y el análisis de los datos, buscamos optimizar operaciones, identificar áreas de mejora y potenciar el rendimiento general de los servicios de telecomunicaciones.
+
 ---
 
 ## 📂 Contenido del Proyecto
@@ -29,3 +30,14 @@ Este proyecto se enfoca en el análisis exhaustivo de datos de telecomunicacione
   - Dataset de salida limpio (`telecom_dataset_us_clean.xlsx`).
 
 ---
+
+## 📊 Gráfica principal 
+
+### **Distribucion de operadores ineficacez**
+   > 📌 Estas gráfica muestra cómo en que espectro de la grafica se encuentran los operadores que se van a eliminar.
+
+
+<p align="center">
+  <img src="distribucion_operadores.png" alt="Distribucion operadores ineficacez" width="85%" >
+</p>
+
