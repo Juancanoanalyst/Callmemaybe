@@ -1,40 +1,26 @@
-# Análisis de Datos de Telecomunicaciones
+# 📊 Análisis de Datos de Telecomunicaciones 📞
 
-Este proyecto realiza un análisis de datos de telecomunicaciones para obtener información valiosa y tomar decisiones informadas. Utiliza Python con las bibliotecas Pandas, NumPy, SciPy, Scikit-learn, Seaborn, Matplotlib, Plotly, Power BI, Excel, Dash, Streamlit, PostgreSQL y BigQuery.
+## 🚀 Proyecto Overview
 
-## Descripción
+Este proyecto se enfoca en el análisis exhaustivo de datos de telecomunicaciones para extraer insights valiosos y fundamentar la toma de decisiones estratégicas. A través de la manipulación y el análisis de los datos, buscamos optimizar operaciones, identificar áreas de mejora y potenciar el rendimiento general de los servicios de telecomunicaciones.
 
-El proyecto incluye las siguientes funcionalidades principales:
+### 🖼️ Visualización del Flujo de Trabajo
 
-* **Limpieza y Transformación de Datos:**
-    * Cambio de tipo de datos de las columnas.
-    * Análisis y manejo de valores nulos.
-    * Análisis de duplicados.
-* **Análisis de Datos:**
-    * Análisis de clientes.
-    * Análisis de operadores.
-    * Cálculo del índice de ineficacia de los operadores.
-* **Generación de Reportes:**
-    * Identificación de operadores a deshabilitar.
-    * Generación de un dataset limpio en formato Excel.
+## 🛠️ Herramientas y Tecnologías
 
-## Archivos del Proyecto
+Este proyecto se ha desarrollado utilizando un conjunto de herramientas y bibliotecas de vanguardia para garantizar la eficiencia y precisión en el análisis de datos:
 
-* `jupyter.ipynb`:  El notebook de Jupyter que contiene el flujo de trabajo principal del análisis de datos.
-* `myfunctions.py`:  Script de Python que define las funciones reutilizables para el análisis de datos, incluyendo:
-    * `cambiar_tipo(df)`:  Cambia el tipo de datos de las columnas.
-    * `nulos_analisis(df)`:  Analiza los valores nulos.
-    * `duplicados_analisis(df)`:  Analiza los duplicados.
-    * `analisis_clientes(df)`:  Realiza un análisis de los clientes.
-    * `analisis_operadores(df)`:  Realiza un análisis de los operadores.
-    * `calcular_ineficacia(df)`:  Calcula el índice de ineficacia de los operadores.
-    * `eliminar_operadores(df, operadores_a_eliminar)`:  Elimina los operadores especificados del DataFrame.
-    * `convertir_a_excel(df, nombre_archivo)`:  Convierte un DataFrame a un archivo Excel.
-* `datasets/`:  Directorio que contiene los datasets de entrada (`telecom_dataset_us.csv`, `telecom_clients_us.csv`) y el dataset de salida limpio (`telecom_dataset_us_clean.xlsx`).
+* **Lenguaje de Programación:**
+    * ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+* **Análisis y Manipulación de Datos:**
+    * ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+    * ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+    * ![SciPy](https://img.shields.io/badge/-SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
+* **Machine Learning:**
+    * ![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+* **Visualización de Datos:**
+    * ![Seaborn](https://img.shields.io/badge/-Seaborn-4B8BBE?style=for-the-badge)
+    * ![Matplotlib](https://img.shields.io/badge/-Matplotlib-11557C?style=for-the-badge)
+    * ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
-## Requisitos
-
-Asegúrate de tener instaladas las siguientes bibliotecas de Python:
-
-```bash
-pip install pandas numpy scipy scikit-learn seaborn matplotlib plotly openpyxl dash streamlit psycopg2 google-cloud-bigquery
+## 📁 Estructura del Proyecto
