@@ -38,6 +38,6 @@ Este proyecto se enfoca en el análisis exhaustivo de datos de telecomunicacione
 
 
 <p align="center">
-  <img src="distribucion_operadores.png" alt="Distribucion operadores ineficacez" width="85%" >
+  <img src="images/distribucion_operadores.png" alt="Distribucion operadores ineficacez" width="85%" >
 </p>
 
