@@ -4,7 +4,24 @@
 
 Este proyecto se enfoca en el análisis exhaustivo de datos de telecomunicaciones para extraer insights valiosos y fundamentar la toma de decisiones estratégicas. A través de la manipulación y el análisis de los datos, buscamos optimizar operaciones, identificar áreas de mejora y potenciar el rendimiento general de los servicios de telecomunicaciones.
 
-### 🖼️ Visualización del Flujo de Trabajo
+
+## 📂 Contenido del Proyecto
+
+- Análisis exploratorio de datos (EDA)
+- Visualización de correlaciones e insights clave
+- Limpieza y transformación de datos
+- Entrenamiento y evaluación de modelos
+- Interpretación de resultados
+- Visualización de métricas clave
+
+
+├── datasets/
+│   ├── telecom_dataset_us.csv        # Dataset principal de telecomunicaciones
+│   ├── telecom_clients_us.csv        # Dataset de información de clientes
+│   └── telecom_dataset_us_clean.xlsx  # Dataset limpio generado
+├── jupyter.ipynb                   # Notebook de Jupyter con el análisis
+└── myfunctions.py                  # Script de Python con funciones reutilizables
+---
 
 ## 🛠️ Herramientas y Tecnologías
 
