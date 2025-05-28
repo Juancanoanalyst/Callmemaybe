@@ -1,8 +1,8 @@
-# 📊 Telecommunications Data Analysis 📞
+# 📊 Telecom Operator Efficiency Analysis & Removal Tool 📞
 
 ## 🚀 Project Overview
 
-This project focuses on the comprehensive analysis of telecommunications data to extract valuable insights and inform strategic decision-making. Through data manipulation and analysis, we aim to optimize operations, identify areas for improvement, and enhance the overall performance of telecommunications services.
+This project focuses on analyzing telecommunications data to identify and address operator inefficiency. A key outcome is a function designed to calculate an inefficiency index based on performance metrics, enabling data-driven decisions for optimizing operator staffing and overall service performance.
 
 ---
 
